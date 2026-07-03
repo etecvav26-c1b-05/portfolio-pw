@@ -1,0 +1,133 @@
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --cor-principal: black;
+    --cor-texto: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sobre{
+    text-align: center;
+    margin: 60px auto;
+    max-width: 700px;
+}
+
+#sobre p{
+    margin-top: 15px;
+}
+
+h1{
+    background-color: var(--cor-principal);
+    padding: 80px;
+    text-align: center;
+    color:var(--cor-texto);
+  
+}
+
+.titulo-principal{
+    text-align: center;
+    margin-bottom: 30 0 80px;   
+}
+
+h2{
+    text-align: center;
+    color:var(--cor-principal);
+    font-size:xx-large;
+    margin-bottom: 20px;
+}
+
+h3{
+    margin: 10px 0;
+    color: var(--cor-principal);
+}
+
+.membros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin: 60px auto;
+}
+
+.card{
+    width: 260px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+     transition: 0.3s ease;
+     box-shadow: 0 3px 10px rgba(0, 0, 0, .15);
+}
+
+.card:hover{
+    transform: translateY(-8px);
+ }
+
+.card img{
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    padding: 12px;
+}
+
+p{
+    text-align: center;
+    color:var(--cor-principal);
+    font-size:large;
+}
+
+.card a{
+    text-decoration: none;
+    color: var(--cor-principal);
+    font-weight: bold;
+}
+
+.card a:hover{
+    text-decoration: underline;
+}
+
+#contato{
+    text-align: center;
+    margin: 80px auto;
+}
+
+#contato p{
+    margin: 8px 0;
+}
+
+@media (max-width: 768px){
+.membros{
+    flex-direction:column;
+    align-items: center;
+}
+
+.card{
+    width: 90%;
+    max-width: 300px;
+    }
+
+}
+
+footer{
+    background: var(--cor-principal);
+    padding: 20px;
+    text-align: center;
+}
+
+footer a{
+    color: var(--cor-texto);
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
