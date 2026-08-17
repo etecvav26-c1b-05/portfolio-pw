@@ -591,3 +591,710 @@ footer p {
 
     margin: 0 12px 14px;
 }
+/* =========================
+   PÁGINA DE CRÍTICA
+========================= */
+
+.pagina-critica {
+    width: 1000px;
+    margin: 60px auto;
+}
+
+
+/* =========================
+   INFORMAÇÕES DO FILME
+========================= */
+
+.filme-principal {
+    display: flex;
+    gap: 45px;
+
+    background-color: #111;
+
+    border: 1px solid #292929;
+
+    padding: 35px;
+
+    margin-bottom: 60px;
+}
+
+
+/* PÔSTER */
+
+.poster-critica {
+    width: 280px;
+
+    flex-shrink: 0;
+}
+
+.poster-critica img {
+    width: 280px;
+    height: 400px;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+/* INFORMAÇÕES */
+
+.informacoes-filme {
+    padding-top: 10px;
+}
+
+.tipo-filme {
+    color: #e50914;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+.informacoes-filme h1 {
+    font-size: 42px;
+
+    margin-bottom: 12px;
+
+    line-height: 1.1;
+}
+
+.subtitulo {
+    color: #888;
+
+    font-size: 14px;
+
+    margin-bottom: 25px;
+}
+
+
+/* NOTA */
+
+.nota {
+    display: flex;
+
+    align-items: baseline;
+
+    gap: 4px;
+
+    margin-bottom: 25px;
+}
+
+.numero-nota {
+    color: #e50914;
+
+    font-size: 38px;
+
+    font-weight: bold;
+}
+
+.nota span:last-child {
+    color: #777;
+
+    font-size: 15px;
+}
+
+
+/* DESCRIÇÃO */
+
+.descricao {
+    color: #bbb;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+
+    max-width: 550px;
+
+    margin-bottom: 25px;
+}
+
+
+/* DIREÇÃO E ELENCO */
+
+.informacoes-filme > p:not(.tipo-filme):not(.subtitulo):not(.descricao) {
+    color: #aaa;
+
+    font-size: 14px;
+
+    margin-bottom: 10px;
+}
+
+.informacoes-filme strong {
+    color: #eee;
+}
+
+
+/* =========================
+   CRÍTICA
+========================= */
+
+.texto-critica {
+    margin-bottom: 60px;
+}
+
+.titulo-secao {
+    display: flex;
+
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+.titulo-secao h2 {
+    font-size: 26px;
+
+    white-space: nowrap;
+}
+
+.titulo-secao span {
+    height: 1px;
+
+    background-color: #333;
+
+    width: 100%;
+
+    margin-left: 20px;
+}
+
+.texto-critica p {
+    color: #bbb;
+
+    font-size: 16px;
+
+    line-height: 1.8;
+
+    margin-bottom: 22px;
+}
+
+
+/* =========================
+   VEREDITO
+========================= */
+
+.veredito {
+    background-color: #111;
+
+    border: 1px solid #292929;
+
+    text-align: center;
+
+    padding: 40px;
+
+    margin-bottom: 40px;
+}
+
+.veredito h2 {
+    font-size: 26px;
+
+    margin-bottom: 15px;
+}
+
+.veredito p {
+    color: #aaa;
+
+    max-width: 650px;
+
+    margin: 0 auto 25px;
+
+    line-height: 1.7;
+}
+
+.nota-final {
+    color: #e50914;
+
+    font-size: 55px;
+
+    font-weight: bold;
+
+    margin-bottom: 0;
+}
+
+.veredito > span {
+    color: #777;
+
+    font-size: 14px;
+}
+
+
+/* =========================
+   VOLTAR AO CATÁLOGO
+========================= */
+
+.voltar-catalogo {
+    text-align: center;
+
+    margin-bottom: 70px;
+}
+
+.voltar-catalogo a {
+    display: inline-block;
+
+    color: white;
+
+    background-color: #e50914;
+
+    text-decoration: none;
+
+    padding: 12px 25px;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.voltar-catalogo a:hover {
+    background-color: #a80710;
+
+    transform: translateY(-3px);
+}
+
+
+
+
+
+
+/* =========================
+   PÁGINA DE SUPORTE
+========================= */
+
+.suporte-topo {
+    height: 360px;
+
+    background-color: #111;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 10%;
+
+    border-bottom: 1px solid #292929;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.suporte-topo:after {
+    content: "";
+
+    position: absolute;
+
+    right: 12%;
+    top: 50px;
+
+    width: 250px;
+    height: 250px;
+
+    border: 1px solid #333;
+
+    transform: rotate(45deg);
+}
+
+.suporte-topo-conteudo {
+    position: relative;
+    z-index: 2;
+}
+
+.suporte-topo h1 {
+    font-size: 52px;
+
+    line-height: 1.05;
+
+    margin-bottom: 20px;
+}
+
+.suporte-topo h1 span {
+    color: #e50914;
+}
+
+.suporte-topo p:last-child {
+    color: #888;
+
+    font-size: 16px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================
+   PÁGINA
+========================= */
+
+.pagina-suporte {
+    width: 1050px;
+
+    margin: 70px auto;
+}
+
+
+/* =========================
+   EQUIPE
+========================= */
+
+.equipe-suporte {
+    display: flex;
+
+    gap: 50px;
+
+    align-items: center;
+
+    margin-bottom: 80px;
+}
+
+.imagem-equipe {
+    width: 500px;
+    height: 330px;
+
+    flex-shrink: 0;
+
+    overflow: hidden;
+
+    border: 1px solid #292929;
+}
+
+.imagem-equipe img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+    transition: 0.4s;
+}
+
+.imagem-equipe:hover img {
+    transform: scale(1.04);
+}
+
+.texto-equipe {
+    flex: 1;
+}
+
+.texto-equipe h2 {
+    font-size: 32px;
+
+    line-height: 1.2;
+
+    margin-bottom: 20px;
+}
+
+.texto-equipe > p:not(.pequeno-titulo) {
+    color: #888;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+
+    margin-bottom: 15px;
+}
+
+
+/* DESTAQUES */
+
+.equipe-destaques {
+    display: flex;
+
+    gap: 25px;
+
+    margin-top: 25px;
+
+    padding-top: 20px;
+
+    border-top: 1px solid #292929;
+}
+
+.equipe-destaques div {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.equipe-destaques strong {
+    color: #e50914;
+
+    font-size: 18px;
+}
+
+.equipe-destaques span {
+    color: #666;
+
+    font-size: 10px;
+
+    margin-top: 4px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+}
+
+
+/* =========================
+   CATEGORIAS
+========================= */
+
+.suporte-categorias {
+    margin-bottom: 80px;
+}
+
+.cards-suporte {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+.card-suporte {
+    background-color: #171717;
+
+    border: 1px solid #292929;
+
+    padding: 30px;
+
+    min-height: 230px;
+
+    transition: 0.3s;
+}
+
+.card-suporte:hover {
+    border-color: #e50914;
+
+    transform: translateY(-5px);
+}
+
+.icone-suporte {
+    width: 42px;
+    height: 42px;
+
+    border: 1px solid #e50914;
+
+    color: #e50914;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: 18px;
+
+    margin-bottom: 20px;
+}
+
+.card-suporte h3 {
+    font-size: 19px;
+
+    margin-bottom: 12px;
+}
+
+.card-suporte p {
+    color: #777;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+
+    margin-bottom: 20px;
+}
+
+.card-suporte a {
+    color: #e50914;
+
+    text-decoration: none;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.card-suporte a:hover {
+    color: white;
+}
+
+
+/* =========================
+   FAQ
+========================= */
+
+.faq-suporte {
+    margin-bottom: 80px;
+}
+
+.lista-faq {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 18px;
+}
+
+.item-faq {
+    background-color: #171717;
+
+    border: 1px solid #292929;
+
+    padding: 25px;
+
+    transition: 0.3s;
+}
+
+.item-faq:hover {
+    border-color: #444;
+}
+
+.item-faq h3 {
+    font-size: 16px;
+
+    margin-bottom: 12px;
+}
+
+.item-faq p {
+    color: #777;
+
+    font-size: 13px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================
+   CONTATO
+========================= */
+
+.contato-suporte {
+    background-color: #111;
+
+    border: 1px solid #292929;
+
+    border-left: 4px solid #e50914;
+
+    padding: 45px;
+
+    display: flex;
+
+    gap: 60px;
+
+    margin-bottom: 50px;
+}
+
+.contato-suporte-texto {
+    width: 40%;
+
+    padding-top: 10px;
+}
+
+.contato-suporte-texto h2 {
+    font-size: 32px;
+
+    line-height: 1.2;
+
+    margin-bottom: 20px;
+}
+
+.contato-suporte-texto > p:last-child {
+    color: #777;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+}
+
+
+/* FORMULÁRIO */
+
+.formulario-suporte {
+    flex: 1;
+}
+
+.campo-suporte {
+    margin-bottom: 18px;
+}
+
+.campo-suporte label {
+    display: block;
+
+    color: #aaa;
+
+    font-size: 12px;
+
+    margin-bottom: 7px;
+}
+
+.campo-suporte input,
+.campo-suporte textarea {
+    width: 100%;
+
+    background-color: #171717;
+
+    border: 1px solid #333;
+
+    color: white;
+
+    padding: 12px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 13px;
+
+    outline: none;
+
+    transition: 0.3s;
+}
+
+.campo-suporte input:focus,
+.campo-suporte textarea:focus {
+    border-color: #e50914;
+}
+
+.campo-suporte textarea {
+    resize: vertical;
+}
+
+.formulario-suporte .botao {
+    border: none;
+
+    cursor: pointer;
+
+    margin-top: 5px;
+}
+
+
+/* =========================
+   VOLTAR
+========================= */
+
+.voltar-suporte {
+    text-align: center;
+
+    margin-bottom: 70px;
+}
+
+.voltar-suporte a {
+    display: inline-block;
+
+    color: #aaa;
+
+    text-decoration: none;
+
+    border: 1px solid #333;
+
+    padding: 12px 25px;
+
+    font-size: 13px;
+
+    transition: 0.3s;
+}
+
+.voltar-suporte a:hover {
+    color: white;
+
+    border-color: #e50914;
+}
